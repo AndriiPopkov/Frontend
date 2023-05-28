@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Roboto+Slab:wght@500;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+body {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #F5F5F5;
+    height: 100vh;
+}
+
+section {
+    width: 420px;
+    height: 420px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(40, 41, 61, 0.08), 0px 20px 32px rgba(96, 97, 112, 0.24);
+    border-radius: 20px;
+    line-height: 16px;
+}
+
+h2 {
+    font-size: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    margin-left: 32px;
+}
+
+img {
+    width: 24px;
+    height: 24px;
+    margin-left: 364px;
+    margin-top: 16px;
+}
+
+.name2 {
+    margin-top: 24px;
+    height: 48px;
+    margin-left: 32px;
+    width: 356px;
+    border-radius: 15px;
+    border: 1px solid #CFD8DC;
+    padding-left: 15px;
+}
+
+.name3 {
+    margin-top: 8px;
+    height: 48px;
+    margin-left: 32px;
+    width: 356px;
+    border-radius: 15px;
+    border: 1px solid #CFD8DC;
+    padding-left: 15px;
+}
+
+p {
+    margin-top: 24px;
+    margin-left: 32px;
+    margin-right: 32px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    vertical-align: top;
+    color: grey;
+}
+.name1 {cursor: pointer;
+background: white;
+margin-left: 16px;}
+
+
+.name4 {
+    background-color: yellow;
+    margin-top: 24px;
+    height: 48px;
+    margin-left: 32px;
+    width: 356px;
+    border-radius: 15px;
+    padding-left: 15px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.name5 {
+    margin-top: 8px;
+    height: 48px;
+    margin-left: 32px;
+    width: 356px;
+    border-radius: 15px;
+    border: 1px solid #CFD8DC;
+    padding-left: 15px;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+}
