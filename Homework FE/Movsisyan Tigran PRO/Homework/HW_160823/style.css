@@ -1,0 +1,66 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 100vh;
+    gap: 5px;
+}
+
+.mitdin {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+
+.din {
+    grid-row: 1/3;
+}
+
+.title {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.titles {
+    display: flex;
+    gap: 68px;
+    margin-top: 52px;
+}
+
+button {
+    border-radius: 50px;
+    background: #F9B640;
+    width: 150px;
+    height: 50px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: ABeeZee;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.content {
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.block1 {
+    grid-column: 1/4;
+    background: #F4F9E2;
+}
+
+.block2 {
+    grid-column: 1/3;
+}
+
+.block4 {
+    grid-column: 1/4;
+}
+
+.block9 {
+    grid-column: 2/4;
+}
