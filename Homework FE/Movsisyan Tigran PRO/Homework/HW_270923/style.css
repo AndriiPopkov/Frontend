@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containerCard {
+    padding: 1%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 50px;
+}
+
+.card {
+    width: 300px;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.span_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.card img {
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.active {
+    color: orange
+}
+
+.ddd {
+    height: 50px;
+    background-color: blueviolet;
+}
