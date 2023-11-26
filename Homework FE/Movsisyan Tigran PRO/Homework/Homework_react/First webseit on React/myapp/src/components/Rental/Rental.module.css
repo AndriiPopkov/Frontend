@@ -1,0 +1,16 @@
+.rental {
+    display: flex; 
+}
+
+.text {
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    padding-left: 4%;
+    padding-right: 4%;
+    justify-content: center;
+    color: #22356F;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 400;
+}

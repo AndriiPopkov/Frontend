@@ -1,0 +1,26 @@
+.offer {
+    display: flex; 
+}
+
+.text {
+    background-color: #62D0DF;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #FFF;
+    text-align: justify;
+    font-family: ABeeZee;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+h2 {
+    font-family: ABeeZee;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 400;
+}

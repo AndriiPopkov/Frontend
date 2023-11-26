@@ -1,0 +1,11 @@
+.slogan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+    color: #22356F;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    padding: 8% 20%;
+}
