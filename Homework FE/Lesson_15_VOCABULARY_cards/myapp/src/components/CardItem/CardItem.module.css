@@ -1,0 +1,13 @@
+.cardItem {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #2980B9;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+}

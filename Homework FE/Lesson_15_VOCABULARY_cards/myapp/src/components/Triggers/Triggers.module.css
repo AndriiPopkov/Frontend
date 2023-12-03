@@ -1,0 +1,20 @@
+.triggers {
+    display: flex;
+    gap: 20px;
+    padding-left: 1%;
+    margin-top: 50px;
+}
+
+.triggers > div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 120px;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    padding: 2%;
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+}
