@@ -1,0 +1,54 @@
+.header {
+    border-radius: 20px;
+    margin-left: 80px;
+    margin-top: 80px;
+    margin-right: 80px;
+    padding: 40px 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    background-color: #ECF0F1;
+    height: 180px;
+    border: 1px solid #000;
+}
+
+.selects {
+    width: 70%;
+    display: flex;
+    gap: 34px;
+    justify-content: space-between;
+}
+
+.selects > select {
+    padding: 7px 10px;
+    width: 50%;
+    height: 45px;
+    font-size: 20px;
+}
+
+.subm {
+    display: flex;
+    justify-content: space-between;
+    color: #000;
+}
+
+.subm input {
+    font-size: 20px;
+}
+
+.subm button {
+    width: 155px;
+    font-size: 20px;
+    color: white;
+    border-radius: 23px;
+    border: 1px solid #000;
+    background: #1ABC9C;
+    cursor: pointer;
+}
+
+.task {
+    padding: 7px 18px;
+    width: 70%;
+    height: 45px;
+}
+
